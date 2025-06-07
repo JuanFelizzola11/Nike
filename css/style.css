@@ -74,3 +74,53 @@ button{
     border-radius: 50px;
 
 }
+
+.fondo-vini{
+    background-image: url(../img/Fondo.p.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.msj-vini{
+    text-align: center;
+}
+
+.msj-vini h1{
+    margin-top: 20px;
+    color: #111111;
+    font-size: 52px;
+    padding: 0 5px 0 0;
+}
+
+.msj-vini p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.compras-btn{
+    padding: 9px 22px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 10%;
+    text-decoration: none;
+    color: white;
+    background: #111111;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+.compras-btn a{
+    color: white;
+}
