@@ -343,12 +343,71 @@ button{
     color: #111111;
 }
 
-footer{
+footer.footer {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 40px 60px;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+.merch2 {
     display: flex;
-    padding: 0 25px;
-    color: #707072;
-    border-top: #707072;
-    margin: 100px 25px 20px 25px;
-    text-align: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.merch-tjt2 {
+    flex: 1 1 200px;
+}
+
+.merch-tjt2 h4 {
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.ul-merch {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ul-merch li {
+    margin-bottom: 10px;
+}
+
+.ul-merch li a {
+    color: #444;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.ul-merch li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: left;
+    margin-top: 40px;
+    font-size: 14px;       
+    color: #555;
+    font-weight: bold;     
+    line-height: 1.8;
+}
+
+.footer-bottom a {
+    color: #555;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;    
+}
+
+.footer-bottom a:hover {
+    color: #000;
+    text-decoration: underline;
 }
